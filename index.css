@@ -1,0 +1,33 @@
+html {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Mobile */
+.nav-list {
+  color: red;
+}
+
+/* Tablet */
+@media (min-width: 426px) {
+  .nav-list {
+    color: green;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.25rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  .nav-list {
+    color: blue;
+    gap: 2rem;
+    font-size: 1.5rem;
+  }
+}
